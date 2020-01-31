@@ -1,0 +1,107 @@
+.GameTaskListItem {
+    height: 33.3%;
+}
+
+.GameTaskListItem > div {
+display: grid;
+    height: 100%;
+    width: 100%;
+    /* margin: 0 0 0.3% 0; */
+    grid-template-columns: max-content auto max-content;
+    grid-template-rows: auto 30%;
+    grid-column-gap: 2%;
+    box-sizing: border-box;}
+
+.GameTaskListItem-icon  {
+        /* align-self: center; */
+    grid-column: 1;
+    grid-row: 1/span 2;
+    /* margin: 1em; */
+    height: 100%;
+    display: inline-block;
+    /* position: relative; */
+    width: 100%;
+    /* column-gap: 5%; */
+    /* display: none; */
+    /* margin: 0 20% 0 0; */
+}
+
+.GameTaskListItem-icon > img {
+    display: block;
+    max-height: 100%;
+    /* position: absolute; */
+    transform: rotateZ(15deg);
+    /* margin: 0 20% 0 0; */
+    object-fit: contain;
+    width: 100%;
+    max-height: 100%;    
+}
+
+.GameTaskListItem-a {
+    /*display: inline-block; */
+    /* align-self: flex-end; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: 3.5% 2%;
+    /* position: relative; */
+}
+
+.GameTaskListItem-b{
+        display: flex;
+    width: 100%;
+    height: auto;
+    align-self: flex-end;
+}
+
+.GameTaskListItem-description{
+    grid-column: 2;
+    grid-row: 1;
+    align-self: center;
+    font-weight: bold;
+    /* text-overflow: ellipsis; */
+    height: 100%;
+    /* display: flex; */
+    /* overflow: hidden; */
+    /* position: absolute; */
+    /* top: 0; */
+    /* left: 0; */
+    position: relative;}
+
+.GameTaskListItem-description > span{
+        /* text-overflow: ellipsis; */
+    display: block;
+    overflow: hidden;
+    /* height: 100%; */
+    /* word-break: break-word; */
+    /* line-break: auto; */
+    white-space: p;
+    position: absolute;
+    /* align-self: center; */
+    padding: 2% 0 0;
+    /* vertical-align: middle; */
+}
+
+.GameTaskListItem-button{
+    height: 30px;
+    width: auto;
+    /* word-spacing: unset; */
+    border-radius: 7px;
+    white-space: nowrap;
+    border: 2px solid;
+    background-color: #efd454;
+    box-shadow: inset 0px 0px 7px 0px;
+    font-weight: bold;
+    /* margin: 0 0 0 15px; */
+    grid-column: 3;
+    grid-row: 2;
+    /* margin: 0 0 10% 0; */
+    align-self: center;
+}
+
+.GameTaskListItem-button:active{
+box-shadow: inset 0px 0px 15px 0px;
+}
+
+
+.GameTaskListItem-button:focus {outline:0;}

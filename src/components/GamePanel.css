@@ -1,0 +1,16 @@
+.GamePanel {
+    position: relative;
+}
+
+.GamePanel .GameListWithSpiner {
+    align-self: center;
+    position: relative;
+    top: -4%;
+    display: flex;
+    justify-content: center;
+}
+
+.GameListWithSpiner .spiner {
+    align-self: center;
+    position: absolute;
+}

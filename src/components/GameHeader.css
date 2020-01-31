@@ -1,0 +1,11 @@
+.GameHeader {
+    position: absolute;
+    width: 100%;
+    top: 2%;
+    z-index: 1;
+        display: flex;
+    justify-content: center;
+}
+.GameHeader > img{
+    padding: 0 0 0 3%;
+}

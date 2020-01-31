@@ -1,0 +1,32 @@
+.ProgressBar {
+    width: 100%;
+    background-color: #3b3c38;
+    height: 20px;
+    border-radius: 10px;
+    position: relative;
+    align-self: center;
+    /* display: flex; */
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.ProgressBar-border {
+    position: absolute;
+    left: -1px;
+    top: -1px;
+    bottom: -1px;
+    right: -1px;
+    /* width: calc(3px + 102%); */
+    border: 2px solid #fefaba;
+    /* height: calc(3px + 100%); */
+    /* box-sizing: border-box; */
+    border-radius: 10px;
+    /* margin: 0 auto; */
+}
+
+.ProgressBar-bar {
+    background-image: linear-gradient(#91ac3b, #697440);
+    border-radius: 10px;
+    height: 100%;
+}
+

@@ -1,0 +1,34 @@
+.CountdownTimer {
+    position: absolute;
+    bottom: 12%;
+    display: flex;
+    /* white-space: nowrap; */
+    /* word-break: break-all; */
+    align-self: center;
+    color: #fff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.CountdownTimer .component{
+line-height: 1em;
+}
+
+.CountdownTimer .component .value{
+    font-weight: bold;
+    font-size: 1.7em;
+    /* padding: 0; */
+    /* margin: 0; */
+    /* display: inline; */
+    min-width: 1.7em;
+}
+
+.CountdownTimer .component .unit{
+font-size: 0.7em;
+}
+
+
+.CountdownTimer .delimiter{
+font-size: 1.7em;
+    font-weight: bold;
+    line-height: 0.5em;
+}
